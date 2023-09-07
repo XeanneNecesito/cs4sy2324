@@ -22,47 +22,50 @@ public class CS4CharmNecesito {
         String count = "Cell count in a drop of blood: ";
 
         //blood type1
-        System.out.println(btype) + "1";
-        //put new line here
+        System.out.println(btype + "1");
         String rbc = "Red Blood Cells";
         String rbcolor = "Red";
-        int rbcount = "5000000";
-        System.out.println(name) + System.out.println(rbc);
-        System.out.println(color) + System.out.println(rbcolor);
-        System.out.println(count) + System.out.println(rbcount);
+        int rbcount = 5000000;
+        System.out.println(name + rbc);
+        System.out.println(color + rbcolor);
+        System.out.println(count + rbcount);
+        
+         System.out.println();
 
         //blood type2
-        System.out.println(btype) + "2";
-        //put new line here
+        System.out.println(btype + "2");
         String wbc = "White Blood Cells";
         String wbcolor = "White";
-        int wbcount = "55000;
-        System.out.println(name) + System.out.println(wbc);
-        System.out.println(color) + System.out.println(wbcolor);
-        System.out.println(count) + System.out.println(wbcount);
+        int wbcount = 55000;
+        System.out.println(name + wbc);
+        System.out.println(color + wbcolor);
+        System.out.println(count + wbcount);
+        
+        System.out.println();
 
         //blood type3
-        System.out.println(btype) + "3";
-        //put new line here
+        System.out.println(btype + "3");
         String plt = "Platelets";
         String pltcolor = "cloudy-yellowish";
-        int pltcount = "1500000";
-        System.out.println(name) + System.out.println(plt);
-        System.out.println(color) + System.out.println(pltcolor);
-        System.out.println(count) + System.out.println(pltcount);
+        int pltcount = 1500000;
+        System.out.println(name + plt);
+        System.out.println(color + pltcolor);
+        System.out.println(count + pltcount);
+        
+        System.out.println();
 
         int total = rbcount + wbcount + pltcount;
-        System.out.println("Total number of cells in a drop of blood: ") + System.out.println(total);
+        System.out.println("Total number of cells in a drop of blood: " + total);
 
         if(rbcount > wbcount && rbcount > pltcount){
-            System.out.println("Red blood cells is the most abundant blood cells: " + "True")
+            System.out.println("Red blood cells is the most abundant blood cells: " + "True");
             }else{
-                System.out.println("Red blood cells is the most abundant blood cells: " + "False")
+                System.out.println("Red blood cells is the most abundant blood cells: " + "False");
                 }
 
         if(rbcolor == wbcolor && rbcolor == pltcolor && wbcolor == pltcolor){
-            System.out.println("These blood cells has the same color: " + "Yes")
+            System.out.println("These blood cells has the same color: " + "Yes");
             }else{
-                System.out.println("These blood cells has the same color: " + "No")
+                System.out.println("These blood cells has the same color: " + "No");
                 }
-
+    }
